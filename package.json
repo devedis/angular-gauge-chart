@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "precommit": "lint-staged",
-    "public-publish": "ng build angular-gauge-chart && cd dist/angular-gauge-chart && npm publish"
+    "public-publish": "ng build angular-gauge-chart && cd dist/angular-gauge-chart && npm publish",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@angular/animations": "^11.2.14",
